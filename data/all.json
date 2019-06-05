@@ -1,0 +1,37 @@
+[
+    {
+        "name": "Anjappar",
+        "rating": 4.2,
+        "place": "chennai",
+        "category": "briyani, multi-cusine",
+        "imageurl": "/chennai/anjappar.jpg"
+    },
+    {
+        "name": "Thalapakatti",
+        "rating": 4.5,
+        "place": "chennai",
+        "category": "briyani, multi-cusine",
+        "imageurl": "/chennai/thalapakatti.png"
+    },
+    {
+        "name": "Bhuari",
+        "rating": 4,
+        "place": "bangalore",
+        "category": "briyani, multi-cusine",
+        "imageurl": "/bangalore/bhurai.jpg"
+    },
+    {
+        "name": "Star Briyani",
+        "rating": 4.5,
+        "place": "ambur",
+        "category": "briyani, multi-cusine",
+        "imageurl": "/ambur/star-briyani.png"
+    },
+    {
+        "name": "Zaitoon",
+        "rating": 3.9,
+        "place": "bangalore",
+        "category": "briyani, multi-cusine",
+        "imageurl": "/bangalore/zaitoon.png"
+    }
+]
