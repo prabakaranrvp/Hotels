@@ -1,0 +1,18 @@
+<h4>List of All Hotels</h4>
+<div class="row">
+    {{#each model as |row|}}
+        <div class="col-sm-3">
+            <div class="card" style="width: 18rem;">
+                <div class="card-img-top" style="background-image: url(/images{{row.imageurl}})" alt="{{row.name}}"></div>
+                <div class="card-body">
+                    <h5 class="card-title">{{row.name}}</h5>
+                    <p class="card-text">Rated <b>{{row.rating}}/5</b> by the trusted customers</p>
+                    {{#link-to "hotels" row.place }}<span class="card-link">More Hotels in {{row.place}}</span>{{/link-to}}
+                </div>
+            </div>
+        </div>
+    {{/each}}
+</div>
+
+
+{{outlet}}

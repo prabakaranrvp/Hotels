@@ -1,0 +1,16 @@
+[
+  {
+    "name": "Bhuari",
+    "rating": 4,
+    "place": "bangalore",
+    "category": "briyani, multi-cusine",
+    "imageurl": "/bangalore/bhurai.jpg"
+  },
+  {
+    "name": "Zaitoon",
+    "rating": 3.9,
+    "place": "bangalore",
+    "category": "briyani, multi-cusine",
+    "imageurl": "/bangalore/zaitoon.png"
+  }
+]

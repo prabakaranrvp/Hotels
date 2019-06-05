@@ -1,0 +1,16 @@
+[
+    {
+        "name": "Anjappar",
+        "rating": 4.2,
+        "place": "chennai",
+        "category": "briyani, multi-cusine",
+        "imageurl": "/chennai/anjappar.jpg"
+    },
+    {
+        "name": "Thalapakatti",
+        "rating": 4.5,
+        "place": "chennai",
+        "category": "briyani, multi-cusine",
+        "imageurl": "/chennai/thalapakatti.png"
+    }
+]
