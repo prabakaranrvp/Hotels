@@ -8,6 +8,12 @@
                 <h5 class="card-title">{{row.name}}</h5>
                 <p class="card-text">Rated <b>{{row.rating}}/5</b> by the trusted customers</p>
                 {{#link-to "Hotels.place" row.place }}<span class="card-link">More Hotels in {{row.place}}</span>{{/link-to}}
+                <p class="card-text">
+                    <b>Categories:</b><br/>
+                    {{#each row.categoryList as |cat| }}
+                        <a href="https://google.com/search?q={{cat}}" target="_blank" class="btn btn-dark">{{cat}}</a><br/>
+                    {{/each}}
+                </p>
             </div>
         </div>
     </div>
